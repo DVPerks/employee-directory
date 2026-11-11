@@ -1,0 +1,28 @@
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: grid;
+    //grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    grid-column: 1 / span 1;
+    max-width: 100px;
+}
+
+.text-container {
+    grid-column: 2 / span 3;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.email, .address {
+    font-size: 14px;
+}
